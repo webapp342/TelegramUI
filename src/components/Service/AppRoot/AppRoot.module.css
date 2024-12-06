@@ -144,17 +144,7 @@
   }
 }
 
-@supports (padding-top: constant(safe-area-inset-bottom)) {
-  .wrapper {
-    --tgui--safe_area_inset_bottom: constant(safe-area-inset-bottom);
-  }
-}
 
-@supports (padding-top: env(safe-area-inset-bottom)) {
-  .wrapper {
-    --tgui--safe_area_inset_bottom: env(safe-area-inset-bottom);
-  }
-}
 
 @supports (color: color-mix(in srgb, var(--tgui--accent_text_color) 10%, transparent)) {
   .wrapper {
